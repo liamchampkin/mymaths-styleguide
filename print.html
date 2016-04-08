@@ -1,0 +1,25 @@
+---
+layout: default
+title: Public site print
+previous-chapter: 1
+categories: text
+permalink: /public-site/print/
+weight: 6
+---
+
+
+  <h1 class="styleguide-title--section">
+    {{ page.title }}
+  </h1>
+
+  <div class="page-content-wrapper--inside">
+    {% include _styles/print.html %}
+  </div>
+
+
+<style>
+	body {
+	    counter-reset: headerone {{ page.previous-chapter }};
+	}
+</style>
+ 

@@ -1,0 +1,79 @@
+//mymaths colours
+//coppied from public site
+$blue: #C6CBE8;
+$blue-light: #ECEEF7; //used this for hover and login background etc
+$blue-dark: #000066; //default font colour
+$blue-button: #DDDDEE;
+$pink: #CC3D7F; //pink highlights
+$yellow: #FFFF08;
+$white: #ffffff;
+
+$neutral: #F2F2F2;
+
+$primary-color: $blue-dark;
+$secondary-color: $pink;
+$tertiary-color: white;
+
+//primary school colours
+$blue-p-dark: #6D96BB;
+$pink-p: #cf1b6e;
+$blue-p-light: #B6CBDC;
+$red-p: #D93838;
+$orange-p: #fa3;
+$green-p: #dae5ee;
+
+$article-padding: 30px;
+
+
+// Our variables
+$font-stack: Verdana, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$heading-color: 	$blue-dark;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+$link-color: 				  $pink;
+$sidebar-link-color: 	 $blue-dark;
+
+$border-color: #CECBE6;
+
+$header-height: 70px;
+$sidebar-height: 100%;
+$height-wrapper: 85vh;
+$sidebar-width: 15vw;
+
+$navbar-color:    		  	white;
+$sidebar-color:    		  	$blue-light;
+$sidebar-active-bg-color:    $pink;
+$sidebar-hover-color:		white;
+$sidebar-hover-bg-color:    $sidebar-active-bg-color;
+$sidebar-active-color: 		white;
+$sidebar-hover-color: 		white;
+
+$navbar-width:		15vw;
+
+//main content area background colours
+$footer-bg-color: white;
+$content-wrapper-bg-color: white;
+
+
+

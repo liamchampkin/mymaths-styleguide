@@ -1,0 +1,89 @@
+body{
+	min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar, footer {
+  padding: 10px;
+  border-radius: 0; // overides default behaviour
+}
+
+.navbar{
+  height: 10vh;
+  border-bottom: 1px solid $border-color;
+  overflow: hidden;
+}
+
+
+footer{
+  height: 5vh;
+  background-color: $footer-bg-color;
+  border-top: 1px solid $border-color;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: $neutral;
+
+}
+
+.row{
+	margin: 0;
+}
+
+body > .row{ //searchbar-hack
+
+	height: 5vh;
+  min-height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page-content{
+  display: flex;
+  flex-direction: row;
+}
+
+#page-content-wrapper{
+	flex: 1;
+	background-color: $content-wrapper-bg-color;
+  margin-left: $sidebar-width;
+  background-color: $neutral;
+}
+
+.page-content-wrapper--inside{
+  padding: 2%;
+}
+
+article{
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  padding: $article-padding;
+  margin-bottom: $article-padding;
+  background-color: white;
+  .flex-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  h2{
+    background-color: lighten($primary-color, 75%);
+    margin: (-$article-padding) (-$article-padding) $article-padding;
+    padding: $article-padding;
+    border-bottom: 3px solid $primary-color;
+    font-size: 25px;
+    color: $primary-color;
+  }
+  h3{
+    background-color: #fff;
+    margin: (-$article-padding) (-$article-padding) $article-padding;
+    padding: $article-padding;
+    border-bottom: 1px solid $border-color;
+    font-size: 20px;
+    color: $primary-color;
+  }
+}
+

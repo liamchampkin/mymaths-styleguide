@@ -1,0 +1,56 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    font-family: $font-stack;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: $heading-color;
+}
+
+a{
+	color: $link-color;
+}
+
+p{
+	max-width: 900px;
+}
+
+h1.styleguide-title{
+	padding: 8vh 4vh;
+	background-color: $primary-color;
+	color: $tertiary-color;
+    margin: 0;
+}
+
+h1.styleguide-title--section{
+	padding: 8vh 4vh;
+	background-color: $primary-color;
+	color: $tertiary-color;
+    margin: 0;
+}
+
+body {
+    counter-reset: headerone;
+
+}
+
+
+
+.sidebar-fixed{
+    h2.no-count:before {
+        counter-increment: none;
+        content: " ";
+    }
+}
+
+
+
+

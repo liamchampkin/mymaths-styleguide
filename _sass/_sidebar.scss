@@ -1,0 +1,9 @@
+#sidebar-wrapper{
+    display: flex;
+    background-color: $white;
+    width: $navbar-width;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+}
+

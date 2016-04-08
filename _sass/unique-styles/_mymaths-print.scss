@@ -1,0 +1,31 @@
+article .example{
+    h1,h2,h3,h4{
+        font-size: 14px;
+        font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+        font-weight: bold;
+        border: none;
+        background-color: white;
+        margin: 0 0 20px;
+        padding: 0;
+
+    }
+    h1{
+      font-size: 1.6em;
+    }
+    h2{
+      font-size: 1.3em;
+
+    }
+    h3{
+      font-size: 16px;
+      line-height: 1.2;
+
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.8;
+        max-width: 600px;
+        color: $primary-color;
+    }
+}
+

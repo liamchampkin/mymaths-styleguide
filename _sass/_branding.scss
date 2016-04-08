@@ -1,0 +1,44 @@
+.color-style{
+		height: 150px;
+	width: 150px;
+		border: 1px solid $border-color;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	justify-content: center;
+}
+
+.color-tile{
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid $border-color;
+
+	.colour{
+		height: 60%;
+	}
+}
+
+.colour--pink{
+	background-color: $pink;
+}
+
+$color:
+(blue-bg, $blue),
+(pink-bg, $pink),
+(blue-dark-bg, $blue-dark),
+(blue-light-bg, $blue-light),
+(white-bg, $white),
+(blue-p-dark-bg, $blue-p-dark),
+(pink-p-bg, $pink-p),
+(blue-p-light-bg, $blue-p-light),
+(red-p-bg, $red-p),
+(orange-p-bg, $orange-p),
+(green-p-bg, $green-p),
+(yellow-bg, $yellow);
+
+@each $name, $bgcolor in $color {
+  .color-tile--#{$name} {
+    background-color: $bgcolor;
+  }
+}
+
